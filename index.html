@@ -58,5 +58,15 @@
     <footer>
       <p>Thanks for your attention!</p>
     </footer>
+    <script>
+      window.addEventListener("scroll", function () {
+        const sticky = document.getElementById("stickyHeader");
+        if (window.scrollY > 200) {
+          sticky.style.display = "block";
+        } 
+        else {
+         sticky.style.display = "none";
+        }});
+    </script>
   </body>
 </html>
