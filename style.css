@@ -45,4 +45,17 @@
     text-align: center;
     color: #6b3e00;
   }
+.sticky-header {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(255, 248, 225, 0.95);
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  font-size: 0.9em;
+  color: #6b3e00;
+  display: none; /* Se oculta al principio */
+  z-index: 1000;
+}
 </style>
