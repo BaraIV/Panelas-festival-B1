@@ -71,4 +71,7 @@
   .navbar a:hover {
     color: #ffd369;
   }
+  section {
+  scroll-margin-top: 70px;
+  }
 </style>
