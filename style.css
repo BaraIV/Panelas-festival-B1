@@ -1,10 +1,10 @@
 <style>
   .hero-header {
-  text-align: center;
-  padding: 100px 20px 60px;
-  background-color: #fff8e1;
-  color: #6b3e00;
-}
+    text-align: center;
+    padding: 100px 20px 60px;
+    background-color: #fff8e1;
+    color: #6b3e00;
+  }
   body {
     font-family: Arial, sans-serif;
     background-color: #fff8e1;
@@ -47,15 +47,15 @@
   }
 .sticky-header {
   position: fixed;
-  top: 20px;
-  left: 20px;
-  background-color: rgba(255, 248, 225, 0.95);
-  padding: 10px 15px;
-  border-radius: 8px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  top: 10px;
+  left: 10px;
+  background-color: #fff8e1;
+  padding: 8px 12px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.15);
   font-size: 0.9em;
   color: #6b3e00;
-  display: none;
   z-index: 1000;
+  opacity: 0.8;
 }
 </style>
