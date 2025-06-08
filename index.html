@@ -23,32 +23,12 @@
     </header>
     <section id="team">
       <h2>The Team</h2>
-      <!-- lista del equipo -->
-    </section>
-    <section id="villeta">
-      <h2>Villeta</h2>
-      <!-- descripción de Villeta -->
-    </section>
-    <section id="festival">
-      <h2>About the Festival</h2>
-      <!-- contenido del festival -->
-    </section>
-    <section id="timeline">
-      <h2>Timeline</h2>
-      <!-- contenido del timeline -->
-    </section>
-    <section id="curiosities">
-      <h2>Curiosities</h2>
-      <!-- curiosidades -->
-    </section>
-    <section> 
-      <h1>The team</h1>
       <li class ="team-member">Marleyby Ramírez Torres – Business Administration Student</li>
       <li class ="team-member">Yhojan Esteban Perea Martínez – Finance and International Business Student</li>
       <li class ="team-member">María del Pilar García Villamil – Business Administration Student</li>
-      <li class ="team-member">Juan Sebastián Barahona Flórez – Systems Engineering Student</li>    
+      <li class ="team-member">Juan Sebastián Barahona Flórez – Systems Engineering Student</li>   
     </section>
-    <section>
+    <section id="villeta">
       <h2>About "Villeta, Cundinamarca"</h2>
       <p>
         Villeta, is a Colombian town located in the department of Cundinamarca, about two hours from Bogotá. It has warm, mountain weather.<br> 
@@ -56,13 +36,14 @@
         In the past, Villeta was an agricultural town, and now it is a popular tourist destination.
       </p>
     </section>
-    <section>
+    <section id="festival">
       <h2>About the festival</h2>
       <p>
-        The Panela Festival celebrates the tradition of panela production in Colombia. It is a cultural event with parades, contests, music, and exhibitions. The festival has been celebrated since 1977. During the event, farmers show how panela is made. Last year, more than 20 towns participated.
+        The Panela Festival celebrates the tradition of panela production in Colombia. It is a cultural event with parades, contests, music, and exhibitions. <br>
+        The festival has been celebrated since 1977. During the event, farmers show how panela is made. Last year, more than 20 towns participated.
       </p>
     </section>
-    <section>
+    <section id="timeline">
       <h2>Timeline</h2>
       <div class="timeline-item"><strong>1977:</strong> The first Panela Festival was held in Villeta. It was created to celebrate the panela industry and the work of local farmers.</div>
       <div class="timeline-item"><strong>1980s:</strong> Traditional cane grinding demonstrations were added, along with beauty contests and folk music shows.</div>
@@ -72,7 +53,7 @@
       <div class="timeline-item"><strong>2021:</strong> The festival was canceled due to the COVID-19 pandemic.</div>
       <div class="timeline-item"><strong>Today:</strong> The festival is active again. It includes cultural, musical, and sports activities, and attracts many national and international tourists.</div>
     </section>
-    <section>
+    <section id="curiosities">
       <h2>Curiosities</h2>
       <ul>
         <li>Villeta produces more than 10% of Colombia's panela.</li>
@@ -85,15 +66,5 @@
     <footer>
       <p>Thanks for your attention!</p>
     </footer>
-    <script>
-      window.addEventListener("scroll", function () {
-        const sticky = document.getElementById("stickyHeader");
-        if (window.scrollY > 200) {
-          sticky.style.display = "block";
-        } 
-        else {
-         sticky.style.display = "none";
-        }});
-    </script>
   </body>
 </html>
