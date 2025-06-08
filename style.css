@@ -40,13 +40,15 @@
     color: #6b3e00;
   }
   .navbar {
-    position: sticky;
+    position: fixed; /* <- esto hace que siempre esté fija */
     top: 0;
+    left: 0;
+    width: 100%;
     background-color: #6b3e00;
     padding: 10px 0;
     z-index: 999;
-    width: 100%;
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   }
   .navbar ul {
     list-style: none;
@@ -59,10 +61,12 @@
   }
   .navbar a {
     color: white;
-    text-decoration: none;
+    text-decoration: none; /* quita el subrayado */
     font-weight: bold;
-    transition: color 0.3s;
-  } 
+    font-size: 16px;
+    padding: 6px 8px;
+    transition: color 0.3s ease;
+  }
   .navbar a:hover {
     color: #ffd369;
   }
