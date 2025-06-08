@@ -55,7 +55,7 @@
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
   font-size: 0.9em;
   color: #6b3e00;
-  display: none; /* Se oculta al principio */
+  display: none;
   z-index: 1000;
 }
 </style>
